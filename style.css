@@ -1,0 +1,110 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 900px;
+  margin: 40px;
+  padding: 90px;
+ 
+}
+.plateforme1 {
+  height: 350px;
+  width: 300px;
+  border: solid;
+  border-bottom-left-radius: 50px;
+  border: transparent;
+  background-image: url( image/retraite.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content:center;
+  
+   
+}
+.plateforme2 {
+  height: 300px;
+  width: 300px;
+  border: solid;
+  border-bottom-left-radius: 50px;
+  background-image:url(image/garde.PNG);
+  background-image: none repeat;
+  border:transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content:center;
+
+  
+  
+}
+.plateforme3 {
+  height: 350px;
+  width:  300px;
+  border: solid;
+  border-bottom-left-radius: 50px;
+  background-image:url(image/gestionnaire.jpg);
+  background-image: none repeat;
+  border:transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content:center;
+
+ 
+}
+.plateforme4 {
+  height: 300px;
+  width: 300px;
+  border: solid;
+  border-bottom-left-radius: 50px;
+  background-image:url(image/secretaire.jpg);
+  background-image:none repeat;
+  border:transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content:center;
+}
+.plateforme5 {
+  height: 350px;
+  width: 300px;
+  border: solid;
+  border-bottom-left-radius: 50px;
+  background-image:url(image/Communiquant.jpg);
+  background-image:none repeat;
+  border:transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content:center;;
+}
+.plateforme6 {
+  height: 300px;
+  width: 300px;
+  border: solid;
+  border-bottom-left-radius: 50px;
+  background-image:url(image/comptable.jpg);
+  background-image:none repeat;
+  border:transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content:center;
+}
+.specialite {
+  height: 20px;
+  width: 240px;
+  background-color: orange;
+  color: white;
+  font-size: 11px;
+  border-radius:90px;
+  display:flex;
+  align-items: center;
+
+    
+}
+.titre{
+  font-size: 18px;
+  color: white;
+}
